@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition</title>
+    <link rel="shortcut icon" type="image/png" href="static/icon.png">
+    <link rel="stylesheet" href="static/style.css"></link>
+    <script src="static/script.js"></script>
+</head>
+
+<body>
+    <div class="eve">
+    <img id="try" src="static/img/list.png">
+    <img id="logo" src="static/img/logo.png" width="700px" height="540px">
+
+    <div class="circle">
+        <div class="uploadImage"></div>
+        <form id="image-form" action="/result" method= 'post' enctype='multipart/form-data'>
+            <label class="file-style">
+            <input type="file" id="upload-image"  name='image' >
+            UPLOAD
+            </label>
+            
+            <input id="sub" type='submit' value='SUBMIT'>
+        </form>
+
+        <div class="cameraImage"></div>
+        <form action="/webcam" method= 'post' >
+            <label class="file-style2"></label>
+            <button name='webcam' type='submit' id="webcambutton">WEBCAM</button>
+             </label>
+        </form>
+        
+        <img id="uploadPreview" width="200px" height="130px">
+        <span id="nameSpan"></span>
+        <span id="probSpan"></span>
+    </div>
+    <div class="nameList">
+    </div>
+</div>
+</body>
+<!-- upload(this.files[0]) -->
+
+</html>
