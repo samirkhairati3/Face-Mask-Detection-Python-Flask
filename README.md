@@ -1,3 +1,3 @@
-# bluebellsinternation Masked Face Recognition
+# bluebellsinternational Masked Face Recognition
 
 $ python app.py
