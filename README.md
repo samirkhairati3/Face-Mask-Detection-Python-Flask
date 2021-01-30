@@ -1,2 +1,3 @@
 # bluebellsfacerecognition
-Masked Face Recognition
+#Masked Face Recognition
+$ python app.py
